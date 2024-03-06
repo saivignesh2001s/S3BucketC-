@@ -35,7 +35,7 @@ namespace S3ClientFactory
                         {
                             response.ResponseStream.CopyTo(filestream);
                             Log.Information("ReadS3File Completed");
-                            return localPath + S3FileName;
+                            return localPath;
                         }
                     }
                 }
